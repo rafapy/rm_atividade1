@@ -25,6 +25,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
+	'talker = rm_atividade1.publisher_member_function:main',
+        'listener = rm_atividade1.subscriber_member_function:main',
         ],
     },
 )
+
